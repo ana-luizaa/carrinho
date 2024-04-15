@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <div class="carrinho">
+        <div class="header-carrinho">
+            <h2>Seu Carrinho</h2>
+        </div>
+        <div class="carrinho-itens">
+            <div class="carrinho-item">
+                <img src="assets/imagem/boxengasse.png" alt="" width="80px">
+                <div class="carrinho-item-detalhes">
+                    <span class="carrinho-item-titulo">Box Engasses</span>
+                    <div class="selector-quantidade">
+                        <i class="fa-solid fa-minus restar-quantidade"></i>
+                        <input type="text" value="1" class="carrinho-item-quantidade" disabled>
+                        <i class="fa-solid fa-plus sumar-quantidade"></i>
+                    </div>
+                    <span class="carrinho-item-preco">$30,00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+            <div class="carrinho-itens">
+                <div class="carrinho-item">
+                    <img src="assets/imagem/middlesteel.png" alt="" width="80px">
+                    <div class="carrinho-item-detalhes">
+                        <span class="carrinho-item-titulo">Box Engasses</span>
+                        <div class="selector-quantidade">
+                            <i class="fa-solid fa-minus restar-quantidade"></i>
+                            <input type="text" value="1" class="carrinho-item-quantidade" disabled>
+                            <i class="fa-solid fa-plus sumar-quantidade"></i>
+                        </div>
+                        <span class="carrinho-item-preco">$30,00</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+             
+        <div class="carrinho-total">
+            <div class="fila">
+                <strong> Total da sua compra:</strong>
+                <span class="carrinho-preco-total">
+                     $60,00
+                </span>
+            </div>
+            <button class="bnt-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+            
+        </div>
+    </div>
+</body>
+</html>
